@@ -45,6 +45,6 @@ class ___FILEBASENAMEASIDENTIFIER___Wireframe {
     }
 
     private func viewControllerFromStoryboard() -> ___FILEBASENAMEASIDENTIFIER___ViewController {
-        return UIStoryboard(name: Constants.StoryboardName, bundle: nil).instantiateViewController(withIdentifier: String(describing: self)) as! ___FILEBASENAMEASIDENTIFIER___ViewController
+        return UIStoryboard(name: Constants.StoryboardName, bundle: nil).instantiateViewController(withIdentifier: String(describing: ___FILEBASENAMEASIDENTIFIER___ViewController.self)) as! ___FILEBASENAMEASIDENTIFIER___ViewController
     }
 }
