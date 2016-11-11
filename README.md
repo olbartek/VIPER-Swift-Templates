@@ -5,7 +5,7 @@ Xcode templates for VIPER architecture (Swift language).
 - [Download templates from repository](https://github.com/olbartek/VIPER-Swift-Templates/archive/master.zip)
 - Copy the `Architecture` folder to `/Users/<user>/Library/Developer/Xcode/Templates/File\ Templates`
 - Start Xcode and create a new file (`File > New > File` or `⌘N`)
-- Search for `Architecture` section and choose between [available templates](#available_templates)
+- Search for `Architecture` section and choose between available templates
 
 ## Available Templates ##
 - `VIPER (Tab module)`
