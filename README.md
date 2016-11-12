@@ -8,8 +8,8 @@ Xcode templates for VIPER architecture (Swift language).
 - Search for `Architecture` section and choose between available templates
 
 ## Available Templates ##
-- `VIPER (Tab module)`
-- `VIPER (Tab module + model)`
+- `VIPER (TabBar module)`
+- `VIPER (TabBar module + model)`
 
 ### References ###
  - https://www.objc.io/issues/13-architecture/viper/
