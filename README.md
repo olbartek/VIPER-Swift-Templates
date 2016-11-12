@@ -9,7 +9,45 @@ Xcode templates for VIPER architecture (Swift language).
 
 ## Available Templates ##
 - `VIPER (TabBar module)`
+  - Application Logic
+    - Interactor
+      * `<module_name>Interactor.swift`
+      * `<module_name>InteractorIO.swift`
+    - Service
+      * `<module_name>Service.swift`
+      * `<module_name>ServiceType.swift`
+  - Module Interface
+      * `<module_name>ModuleInterface.swift`
+  - User Interface
+    - Presenter
+      * `<module_name>Presenter.swift`
+    - View
+      * `<module_name>ViewController.swift`
+      * `<module_name>ViewInterface.swift`
+    - Wireframe
+      * `<module_name>Wireframe.swift`
+
 - `VIPER (TabBar module + model)`
+  - Application Logic
+    - Interactor
+      * `<module_name>Interactor.swift`
+      * `<module_name>InteractorIO.swift`
+    - Model
+      * `<module_name>.swift`
+    - Service
+      * `<module_name>Service.swift`
+      * `<module_name>ServiceType.swift`
+  - Module Interface
+      * `<module_name>ModuleInterface.swift`
+  - User Interface
+    - Presenter
+      * `<module_name>Presenter.swift`
+      * `Display<module_name>.swift`
+    - View
+      * `<module_name>ViewController.swift`
+      * `<module_name>ViewInterface.swift`
+    - Wireframe
+      * `<module_name>Wireframe.swift`
 
 ### References ###
  - https://www.objc.io/issues/13-architecture/viper/
